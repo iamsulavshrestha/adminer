@@ -1,0 +1,108 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d765b75dc8d80d35323c7f1b3946b070",
+    "packages": [
+        {
+            "name": "sush/adminer-theme",
+            "version": "dev-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iamsulavshrestha/adminer-theme.git",
+                "reference": "cc60954b2f0e795789191b3604d5af2aef8f5a20"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iamsulavshrestha/adminer-theme/zipball/cc60954b2f0e795789191b3604d5af2aef8f5a20",
+                "reference": "cc60954b2f0e795789191b3604d5af2aef8f5a20",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sush\\AdminerTheme\\": "lib/plugins/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Sulav Shrestha",
+                    "email": "connect@sulav.name.np"
+                }
+            ],
+            "description": "customizing fork from pematon/adminer-theme",
+            "support": {
+                "source": "https://github.com/iamsulavshrestha/adminer-theme/tree/dev"
+            },
+            "time": "2020-12-08T19:35:08+00:00"
+        },
+        {
+            "name": "vrana/adminer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vrana/adminer.git",
+                "reference": "190146672f6ce9b8f08af2d7e7a5e8f768d32ee6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vrana/adminer/zipball/190146672f6ce9b8f08af2d7e7a5e8f768d32ee6",
+                "reference": "190146672f6ce9b8f08af2d7e7a5e8f768d32ee6",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "plugins/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0",
+                "GPL-2.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Jakub Vrána",
+                    "homepage": "https://www.vrana.cz/"
+                }
+            ],
+            "description": "Database management in a single PHP file.",
+            "homepage": "https://www.adminer.org/",
+            "keywords": [
+                "database"
+            ],
+            "support": {
+                "forum": "https://sourceforge.net/p/adminer/discussion/",
+                "issues": "https://sourceforge.net/p/adminer/bugs-and-features/",
+                "source": "https://github.com/vrana/adminer/"
+            },
+            "funding": [
+                {
+                    "url": "https://sourceforge.net/p/adminer/donate/",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/jakubvrana",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2020-12-06T12:58:20+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "vrana/adminer": 20,
+        "sush/adminer-theme": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
